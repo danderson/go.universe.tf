@@ -13,7 +13,8 @@ import (
 
 func main() {
 	Package("netboot", "google/netboot")
-	Program("tcpproxy", "google/tcpproxy")
+	Package("tcpproxy", "google/tcpproxy")
+	Program("conduits", "danderson/conduits")
 	must(ioutil.WriteFile("out/_redirects", []byte(strings.Join(redirects, "\n")+"\n"), 0644))
 }
 
