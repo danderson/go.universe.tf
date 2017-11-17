@@ -1,3 +1,4 @@
 /netboot/* /netboot/index.html 200
 /tcpproxy/* /tcpproxy/index.html 200
 /conduits/* /conduits/index.html 200
+/metallb/* /metallb/index.html 200

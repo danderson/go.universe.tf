@@ -15,6 +15,7 @@ func main() {
 	Package("netboot", "google/netboot")
 	Package("tcpproxy", "google/tcpproxy")
 	Program("conduits", "danderson/conduits")
+	Program("metallb", "google/metallb")
 	must(ioutil.WriteFile("out/_redirects", []byte(strings.Join(redirects, "\n")+"\n"), 0644))
 }
 
