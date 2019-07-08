@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	Package("netboot", "google/netboot")
+	Package("netboot", "danderson/netboot")
 	Package("tcpproxy", "google/tcpproxy")
 	Package("ppp", "danderson/goppp")
 	Package("virtuakube", "danderson/virtuakube")
