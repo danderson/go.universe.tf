@@ -17,7 +17,7 @@ func main() {
 	Package("ppp", "danderson/goppp")
 	Package("virtuakube", "danderson/virtuakube")
 	Program("conduits", "danderson/conduits")
-	Program("metallb", "google/metallb")
+	Program("metallb", "danderson/metallb")
 	must(ioutil.WriteFile("out/_redirects", []byte(strings.Join(redirects, "\n")+"\n"), 0644))
 }
 
