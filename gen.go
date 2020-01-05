@@ -16,6 +16,7 @@ func main() {
 	Package("tcpproxy", "google/tcpproxy")
 	Package("ppp", "danderson/goppp")
 	Package("virtuakube", "danderson/virtuakube")
+	Package("natlab", "danderson/natlab")
 	Program("conduits", "danderson/conduits")
 	Program("metallb", "danderson/metallb")
 	must(ioutil.WriteFile("out/_redirects", []byte(strings.Join(redirects, "\n")+"\n"), 0644))
