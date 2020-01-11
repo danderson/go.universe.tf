@@ -3,5 +3,6 @@
 /ppp/* /ppp/index.html 200
 /virtuakube/* /virtuakube/index.html 200
 /natlab/* /natlab/index.html 200
+/natprobe/* /natprobe/index.html 200
 /conduits/* /conduits/index.html 200
 /metallb/* /metallb/index.html 200
