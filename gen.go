@@ -19,7 +19,7 @@ func main() {
 	Package("natlab", "danderson/natlab")
 	Package("natprobe", "danderson/natprobe")
 	Program("conduits", "danderson/conduits")
-	Program("metallb", "danderson/metallb")
+	Program("metallb", "metallb/metallb")
 	must(ioutil.WriteFile("out/_redirects", []byte(strings.Join(redirects, "\n")+"\n"), 0644))
 }
 
